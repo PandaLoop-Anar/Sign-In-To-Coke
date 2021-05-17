@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: 700px;
+    grid-template-rows: 500px;
+    grid-gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.mtavari {
+    display: grid;
+    grid-template-columns: 400px 300px;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 700px;
+    height: 600px;
+    border-radius: 40px;
+    box-shadow: grey 4px -4px 8px;
+}
+
+.pirveli {
+    border: black 0px solid;
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+}
+
+form {
+    grid-template-rows: repeat(15, 27px);
+    display: grid;
+    row-gap: 2px;
+    text-align: center;
+    width: 230px;
+    margin-left: 90px;
+}
+
+.egari {
+    border: white 2px solid;
+    background-color: #e41e2b;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    width: 120px;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.button, .new {
+    border: #e41e2b 2px solid;
+    background-color: #e41e2b;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 53px;
+    padding-left: 53px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.new {
+    border: white 2px solid;
+    background-color: #e41e2b;
+    color: white;
+}
+
+.meore {
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    background-image: url(./34ce32bfe279b9e22b86af9a7afe7da6.jpg);
+    border-radius: 0 40px 40px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-self: center;
+}
+
+.dva {
+    display: grid;
+    row-gap: 15px;
+    grid-template-rows: 30px 20px 20px 30px 30px;
+    margin-top: 190px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+form h1 {
+    display: inline;
+    color: #e41e2b;
+}
+
+.div2 {
+    display: inline-block;
+    border: 2px solid #e41e2b;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;
+    color: #e41e2b;
+}
+
+#Username, #email, #password {
+    border: 3px solid black;
+    border-style: hidden hidden outset hidden;
+    align-items: center;
+    cursor: pointer;
+    padding: 7px;
+    cursor: text;
+    width: 200px;
+    margin: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.birthday {
+    width: 210px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user, .email, .birth, .pas, .gen, .aha, .how {
+    display: inline-flex;
+    float: left;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aha label, .aha input {
+    margin: 3.5px;
+}
+
+.check {
+    font-size: 18px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+h1, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+}
+
+.aha input, .aha label {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .mtavari {
+        visibility: hidden;
+    }
+}

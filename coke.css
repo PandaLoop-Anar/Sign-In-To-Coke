@@ -1,0 +1,203 @@
+* {
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+h1 {font-family: 'Great Vibes', cursive;}
+
+/*დასაწყისი*/
+
+.shesavali {
+border: #e41e2b 1px solid;
+height: 80px;
+background-color: #e41e2b;
+position: sticky;
+top: 0;
+flex-grow: 4;
+display: flex;
+
+}
+
+.logo {
+
+margin-top: 10px;
+width: 200px;
+}
+
+.brand {
+font-family: 'Great Vibes', cursive;
+letter-spacing: 4px;
+flex-grow: 4;
+font-size: 22px;
+color: white;
+margin-top: 34px;
+}
+
+.menu {
+border: 3px solid white;
+background-color: white;
+border-radius: 5px;
+color: #e41e2b;
+font-size: 20px;
+text-align: center;
+margin: 5px;
+cursor: pointer;
+letter-spacing: 2px;
+padding: 2px;
+margin-top: 34px;
+}
+
+.menu:hover {
+background-color: #e41e2b;
+color: white;
+}
+    
+.menu:active {
+background-color: black;
+color: white;
+}
+
+@media only screen and (max-width: 720px) and (min-width:200px){
+    .menu {display: none;}
+}
+
+
+.prosta {
+margin-top: 10px;
+border: white 1px solid;
+text-align: center;
+
+}
+
+
+/* მთავარი */
+
+.img1, .img2, .img3, .img4 {
+width: 24vw;
+height: 18vw;
+}
+
+p, .bolodakai, h2, .cake, .sprite, .Schweppes, .fanta {
+width: 24vw;
+}
+
+
+.mtavari {display: flex;
+justify-content: space-around;
+
+}
+
+.fanta { 
+margin-top: 10px;
+border: white 1px solid;
+}
+    
+.coke { 
+margin-top: 10px;
+border: white 1px solid;
+}
+        
+.sprite {
+margin-top: 10px;
+border: white 1px solid;
+}
+    
+        
+.bolo {
+margin-top: 10px;
+border: white 1px solid;
+}
+
+.Schweppes {
+margin-top: 10px;
+border: white 1px solid;
+}
+
+#sch {width: 230px;}
+
+.learnmore {
+display: inline-block;
+padding: 3px;
+margin-top: 10px;
+margin-bottom: 10px;
+color: white;
+font-size: 20px;
+height: 25px;
+width: 150px;
+text-align: center;
+border-radius: 5px;
+}
+
+#cokee {background-color: #e41e2b;
+border: 3px  #e41e2b solid;
+margin: 3px;
+}
+
+#cokee:hover {background-color: white;
+color: red;
+}
+    
+.pirv {color:#e41e2b;
+margin: 3px;
+}
+    
+#fa {background-color: #ff8300;
+border: 3px  #ff8300 solid;
+margin: 3px;}
+    
+#fa:hover {background-color:  white;
+color: #ff8300 ;}
+    
+.meore {color:#ff8300;
+margin: 3px }
+    
+#sp {background-color: rgb(0, 122, 0);
+border: 3px  rgb(0, 122, 0) solid;
+margin: 3px;}
+    
+#sp:hover {background-color:  white;
+color: rgb(0, 122, 0);}
+    
+.mes {color: rgb(0, 122, 0);
+margin: 3px;}
+    
+#sch {border: 3px  rgb(134, 32, 32) solid;
+background-color: rgb(134, 32, 32);
+margin: 3px;}
+    
+#sch:hover {background-color:  white;
+color: rgb(134, 32, 32);}
+    
+.bolodakai {color: rgb(134, 32, 32);
+margin: 3px;}
+
+p, a, h2, h3 {font-family: 'Montserrat', sans-serif;}
+
+
+#saboloo {
+background-color: rgb(255, 174, 24);
+border: 3px  rgb(255, 174, 24) solid;
+
+width: 280px;
+}
+    
+#saboloo:hover {background-color: white;
+color: rgb(255, 174, 24);
+}
+
+.egari {text-align: center;}
+
+
+@media only screen and (max-width: 900px) and (min-width:200px){
+    .mtavari {Flex-Wrap: Wrap}
+}
+
+@media only screen and (max-width: 800px) and (min-width:200px){
+    .prosta {color: blue;}
+}
+
